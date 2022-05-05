@@ -1,8 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import asyncAPI from "../../tools/async-api";
 
-// actions
+// actions creators:
 import { messageUpdated } from "../store/slices/message";
 
 //
